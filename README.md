@@ -1,2 +1,2 @@
-# SolarPowered-Smart-Irrigation-System
-Solar powered smart irrigation systems are the answer to the Indian farmer. This system consists of solar powered water pump along with an automatic water flow control using a moisture sensor. It is the proposed solution for the present energy crisis for the Indian farmers. This system conserves electricity by reducing the usage of grid power and conserves water by reducing water losses.
+# Solar-Powered-Smart-Irrigation-System
+Solar powered  smart irrigation systems are the answer to  the  Indian farmer. This system consists of solar powered water pump along with an  automatic  water  flow  control  using  a  moisture  sensor.  It  is  the proposed solution for the present energy crisis for the Indian farmers. This system conserves electricity by reducing the usage of grid power and conserves water by reducing water losses. 

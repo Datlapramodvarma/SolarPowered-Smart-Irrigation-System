@@ -1,0 +1,108 @@
+<html>
+<head><title>Smart India Hackthon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<body>	
+<style>
+h1{
+color:tomato;
+font-size:50px;
+}	
+
+body
+{
+background-image: url("https://eenews.cdnartwhere.eu/sites/default/files/styles/inner_article/public/sites/default/files/images/bath_solar_cell.jpg?itok=x4sLEzS7");
+background-repeat:no-repeat;
+height:100%;
+background-size:cover;
+}
+.button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button:active {
+    color: #000
+}
+
+.button:active:after {
+    background: transparent;
+}
+
+.button:hover:before {
+    opacity: 1;
+}
+
+.button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+<body>
+<center>
+<div class="w3-container w3-center w3-animate-right">	
+ <b><b><b><h1 align=center>Solar Powered Smart Irrigation System</h1></b></b></b>
+</div>
+<marquee direction="left">This is an Agriculture and Rural Development project...For more such projects,visit <a href="https://www.sih.gov.in/"> this link</a> </marquee><br><br>
+<div class="w3-container w3-center w3-animate-zoom">
+<b><h3 align="center">The date and time on the server is: {{time}}</h3></b>
+<b><h3 align="center">{{text}}</h3></b><br><br>
+<button class="button"><font size="2px">Turn 'ON' Auto Watering</font></button><br><br>
+<button class="button" ><font size="2px">Turn 'OFF' Auto Watering</font></button><br><br>
+<button class="button" ><font size="2px">Check Soil Status</font></button><br><br>
+<button class="button"><font size="2px">Water Once</font></button><br><br>
+<button class="button"><font size="2px">Check Time Last Watered</font></button><br><br>
+</div>
+</center>
+</body>
+</html>
