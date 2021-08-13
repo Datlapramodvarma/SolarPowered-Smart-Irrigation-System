@@ -1,1 +1,0 @@
-# SolarPowered-Smart-Irrigation-System
